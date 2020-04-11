@@ -106,5 +106,5 @@ Additional package after creating react-app via `npx create-react-app my-app`
 ---
 ## Preview
 
-https://polymer940c.github.io/react-github-pages-boilerplate/
+https://polymer940c.github.io/react-with-tailwind-css/
 

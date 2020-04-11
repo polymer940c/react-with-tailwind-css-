@@ -1,8 +1,8 @@
 {
-  "name": "react-github-pages-boilerplate",
+  "name": "react-with-tailwind-css",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://polymer940c.github.io/react-github-pages-boilerplate",
+  "homepage": "http://polymer940c.github.io/react-with-tailwind-css",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
