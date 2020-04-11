@@ -102,6 +102,17 @@ Follow [guide](https://github.com/gitname/react-gh-pages) to get react-app runni
 Additional package after creating react-app via `npx create-react-app my-app`
 
 `npm install gh-pages --save-dev`
+```
+tailwindcss
+postcss-cli
+autoprefixer
+```
+postcss-cli: stylesheet compiler ,
+autoprefixer: add vender prefix with caniuse.com
+
+`npx tailwind init --full`
+
+
 
 ---
 ## Preview

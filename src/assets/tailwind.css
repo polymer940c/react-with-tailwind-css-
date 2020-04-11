@@ -1,0 +1,6 @@
+/* script will run on start up to compile & transpile these into main.css */
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
