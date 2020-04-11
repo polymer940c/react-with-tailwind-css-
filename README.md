@@ -1,3 +1,7 @@
+
+![Cover](readme-img.png)
+This boilerplate introduces a simple way for developing serverless React applications, which are perfect for serving from [Github Pages](https://pages.github.com/).
+
 Follow [guide](https://github.com/gitname/react-gh-pages) to get react-app running on github pages
 
 ---
