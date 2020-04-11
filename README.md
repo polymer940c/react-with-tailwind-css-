@@ -6,13 +6,6 @@ Follow [guide](https://github.com/gitname/react-gh-pages) to get react-app runni
 
 ---
 
-Additional package after creating react-app via `npx create-react-app my-app`
-
-`npm install gh-pages --save-dev`
-
-
-
-
 ## Procedure
 
 1. **Create an *empty* repository on GitHub.** (2 minutes)
@@ -104,7 +97,13 @@ Additional package after creating react-app via `npx create-react-app my-app`
     * So, the `master` branch held the source code, and the `gh-pages` branch held the *built* app code.
 
 ---
+## notes
 
+Additional package after creating react-app via `npx create-react-app my-app`
+
+`npm install gh-pages --save-dev`
+
+---
 ## Preview
 
 https://polymer940c.github.io/react-github-pages-boilerplate/
