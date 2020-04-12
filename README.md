@@ -112,7 +112,26 @@ autoprefixer: add vender prefix with caniuse.com
 
 `npx tailwind init --full`
 
+create these files
+```
+src/assets/tailwind.css
+src/assets/main.css
+```
+Add these into `tailwind.css`
+```
+@import "tailwindcss/base";
 
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+```
+add these to `package.json`
+```
+    "start": "yarn run watch:css && react-scripts start",
+    "build": "yarn run watch:css && react-scripts build",
+    "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
+```
 
 ---
 ## Preview
