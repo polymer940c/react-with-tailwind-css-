@@ -136,5 +136,5 @@ add these to `package.json`
 ---
 ## Preview
 
-https://polymer940c.github.io/react-with-tailwind-css/
+https://polymer940c.github.io/react-with-tailwind-css-/
 
