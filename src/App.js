@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     setFilteredusers(filterIt(users, term));
     if (isLoading) {
-      fetch(`http://dummy.restapiexample.com/api/v1/employees`)
+      fetch(`https://dummy.restapiexample.com/api/v1/employees`)
         .then((res) => res.json())
         .then((res) => {
           setUsers(res.data);
