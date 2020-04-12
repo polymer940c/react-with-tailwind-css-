@@ -10,15 +10,16 @@ function App() {
   const [term, setTerm] = useState("");
 
   useEffect(() => {
-    console.log(filterIt(users, term));
     setFilteredusers(filterIt(users, term));
-    fetch(`http://dummy.restapiexample.com/api/v1/employees`)
-      .then((res) => res.json())
-      .then((res) => {
-        setUsers(res.data);
-        setIsLoading(false);
-      })
-      .catch((err) => console.log(err));
+    if (isLoading) {
+      fetch(`http://dummy.restapiexample.com/api/v1/employees`)
+        .then((res) => res.json())
+        .then((res) => {
+          setUsers(res.data);
+          setIsLoading(false);
+        })
+        .catch((err) => console.log(err));
+    }
   }, [term]);
 
   const filterIt = (arr, searchKey) =>  {
